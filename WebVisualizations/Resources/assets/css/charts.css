@@ -1,0 +1,8 @@
+.dropBorder{
+    border: 1px solid;
+    border-radius: 5%;
+}
+
+#humid{
+    margin-bottom: 5px;
+}

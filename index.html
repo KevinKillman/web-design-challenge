@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Web Design Challenge</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="WebVisualizations/Resources/assets/landing.css">
+    <link rel="stylesheet" href="WebVisualizations/Resources/assets/css/landing.css">
+    <link rel="stylesheet" href="WebVisualizations/Resources/assets/css/charts.css">
 </head>
 <body class="background">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -20,24 +21,78 @@
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
       </div>
+      
   </nav>
 
-  <div class="container" id="latTemp">
+
+
+
+  <div class="container">
     <div class="row">
-      <div class="col-md-4 col-sm-12">
-        <a href="WebVisualizations/Resources/assets/images/Fig1.png">
-          <img src="WebVisualizations/Resources/assets/images/Fig1.png" class="img-fluid shadow">
-        </a>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle dropBorder" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Temperature vs. Latitude
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li>
+              <a href="WebVisualizations/Resources/assets/html/latTemp.html">
+                <img src="WebVisualizations/Resources/assets/images/Fig1.png" class="img-fluid shadow">
+                <li></li>
+              </a>
+              
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="col-md-8 col-sm-12" >
-        <h1>Latitude vs. Temperature</h1>
-        <p>This chart visualizes the relationship between latitude and maximum temperature. It shows that as you approach the equator, 0 latitude, the temperatures rise. As you move away from the equator, the temperature shows a decreasing trend from the max temperature at the equator.</p>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle dropBorder" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Humidity vs. Latitude
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li>
+              <a href="WebVisualizations/Resources/assets/html/latHumidity.html">
+                <img src="WebVisualizations/Resources/assets/images/Fig2.png" class="img-fluid shadow">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle dropBorder" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Cloudiness vs. Latitude
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li>
+              <a href="WebVisualizations/Resources/assets/html/latCloud.html">
+                <img src="WebVisualizations/Resources/assets/images/Fig3.png" class="img-fluid shadow">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle dropBorder" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Wind Speed vs. Latitude
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li>
+              <a href="WebVisualizations/Resources/assets/html/latWind.html">
+                <img src="WebVisualizations/Resources/assets/images/Fig4.png" class="img-fluid shadow">
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-
-
-
 
 
 
