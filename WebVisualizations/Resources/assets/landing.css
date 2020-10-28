@@ -13,11 +13,18 @@
 }
 
 #latTemp{
-    margin-top: 4px;
-    background: whitesmoke;
+    background: lightskyblue;
 }
 
 #latTemp h1{
     text-decoration: underline;
     font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
+}
+
+#latTemp p{
+    font-size: x-large;
+}
+#latTemp img{
+    margin-top: 5px;
+    margin-left: 0px;
 }
