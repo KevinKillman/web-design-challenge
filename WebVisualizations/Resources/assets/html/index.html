@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="WebVisualizations/Resources/assets/css/charts.css">
 </head>
 <body class="background">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" style="color:blue">Latitude Analysis with Attitude</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="color: aquamarine">Latitude Analysis with Attitude</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -20,14 +20,45 @@
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
-      </div>
-      
+          <li class="nav-item active">
+            <a class="nav-link" href="comparisons.html">Comparisons </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="comparisons.html">Comparisons </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="csvData.html">Data </a>
+          </li>
+          <li class="dropdown">
+            <button class="btn btn-dark dropdown-toggle dropBorder" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Plots
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li>
+                <a href="latTemp.html">Temperature</a>
+              </li>
+              <li>
+                <a href="latHumidity.html">Humidity</a>
+              </li>
+              <li>
+                <a href="latCloud.html">Cloudiness</a>
+              </li>
+              <li>
+                <a href="latWind.html">Wind Speed</a>
+              </li>
+              
+            </ul>
+          </li>
+
+        </ul>
+      </div>  
   </nav>
 
 
 
 
-  <div class="container">
+  <div class="container" id="chartDropdown">
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-3">
         <div class="dropdown">
@@ -37,7 +68,7 @@
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
             <li>
-              <a href="WebVisualizations/Resources/assets/html/latTemp.html">
+              <a href="latTemp.html">
                 <img src="WebVisualizations/Resources/assets/images/Fig1.png" class="img-fluid shadow">
                 <li></li>
               </a>
@@ -54,7 +85,7 @@
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
             <li>
-              <a href="WebVisualizations/Resources/assets/html/latHumidity.html">
+              <a href="latHumidity.html">
                 <img src="WebVisualizations/Resources/assets/images/Fig2.png" class="img-fluid shadow">
               </a>
             </li>
@@ -69,7 +100,7 @@
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
             <li>
-              <a href="WebVisualizations/Resources/assets/html/latCloud.html">
+              <a href="latCloud.html">
                 <img src="WebVisualizations/Resources/assets/images/Fig3.png" class="img-fluid shadow">
               </a>
             </li>
@@ -84,7 +115,7 @@
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
             <li>
-              <a href="WebVisualizations/Resources/assets/html/latWind.html">
+              <a href="latWind.html">
                 <img src="WebVisualizations/Resources/assets/images/Fig4.png" class="img-fluid shadow">
               </a>
             </li>

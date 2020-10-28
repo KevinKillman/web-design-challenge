@@ -12,6 +12,9 @@
     background: beige;
 }
 
+#chartDropdown{
+    padding-top: 10px;
+}
 
 #latTemp{
     background: lightskyblue;
