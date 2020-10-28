@@ -1,0 +1,23 @@
+.imgbox{
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+}
+
+.shadow{
+    box-shadow: 5px;
+}
+
+.background{
+    background: beige;
+}
+
+#latTemp{
+    margin-top: 4px;
+    background: whitesmoke;
+}
+
+#latTemp h1{
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
+}
