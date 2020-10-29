@@ -4,6 +4,10 @@
     border-color: green;
 }
 
+.navbar{
+
+}
+
 .shadow{
     box-shadow: 5px;
 }
@@ -24,13 +28,35 @@
     background: lavender;
 }
 
+@media(max-width: 768px){
+    .plotList{
+        margin-right: 400px;
+        background: none;
+        border: none
+    }
+    .plotList li{
+        margin-top: 6px;
+        border: none;
+        background: none;
+    }
+    .plotList a{
+        color: aquamarine;
+    }
+}
+
 .background{
     background: beige;
 }
 
 #chartDropdown{
+    position: fixed;
+    bottom: 5%;
     padding-top: 10px;
 }
+#chartDropdown hr{
+    border-top: 1px solid black;
+}
+
 
 #latTemp{
     background: lightskyblue;
