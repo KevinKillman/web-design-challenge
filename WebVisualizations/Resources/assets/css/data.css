@@ -1,0 +1,8 @@
+.dataframe{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.dataframe thead tr,th{
+    background: lightgray;
+}
