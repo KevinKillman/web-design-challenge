@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="WebVisualizations/Resources/assets/css/charts.css">
 </head>
 <body class="background">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" style="color: aquamarine" href="#">Latitude Analysis with Attitude</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -53,90 +53,94 @@
       </div>  
   </nav>
 
-
-
-
-  <div class="container-fluid" id="chartDropdown">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-12 col-md">
-        <h3>Charts</h3>
+      <div class="col-md-6">  
+        <h1>Project Description</h1>
+      </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <img src='WebVisualizations/Resources/assets/images/Fig1.png'>
       </div>
     </div>
-    <hr/>
     <div class="row">
-      <div class="col-6 col-sm-6 col-md-3 col-lg-3">
-        <div class="dropup">
-          <button class="btn btn-secondary dropdown-toggle dropBorder" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            Temperature vs. Latitude
-            <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li>
-              <a href="WebVisualizations/Resources/assets/html/latTemp.html">
-                <img src="WebVisualizations/Resources/assets/images/Fig1.png" class="img-fluid shadow">
-                <li></li>
-              </a>
-            </li>
-          </ul>
-        </div>
+      <div class='col-sm-12'>
+        <img src="WebVisualizations/Resources/assets/images/Fig2.png">
       </div>
-      <div class="col-6 col-sm-6 col-md-3 col-lg-3">
-        <div class="dropup">
-          <button class="btn btn-secondary dropdown-toggle dropBorder" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            Humidity vs. Latitude
-            <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li>
-              <a href="WebVisualizations/Resources/assets/html/latHumidity.html">
-                <img src="WebVisualizations/Resources/assets/images/Fig2.png" class="img-fluid shadow">
-              </a>
-            </li>
-          </ul>
+    </div> 
+      
+    </div>
+  </div>
+  
+
+  <div class="container-fluid" id="chartDropdown">
+    <div class="navbar fixed-bottom navbar-dark bg-dark" >
+      <a class="navbar-brand" style="color: aquamarine" href="WebVisualizations/Resources/assets/html/comparisons.html"><strong>Charts</strong></a>>
+      <div class="row">
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+          <div class="dropup">
+            <button class="btn btn-secondary dropdown-toggle dropBorder" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Temperature vs. Latitude
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li>
+                <a href="WebVisualizations/Resources/assets/html/latTemp.html">
+                  <img src="WebVisualizations/Resources/assets/images/Fig1.png" class="img-fluid shadow">
+                  <li></li>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="col-6 col-sm-6 col-md-3 col-lg-3">
-        <div class="dropup">
-          <button class="btn btn-secondary dropdown-toggle dropBorder" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            Cloudiness vs. Latitude
-            <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li>
-              <a href="WebVisualizations/Resources/assets/html/latCloud.html">
-                <img src="WebVisualizations/Resources/assets/images/Fig3.png" class="img-fluid shadow">
-              </a>
-            </li>
-          </ul>
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+          <div class="dropup">
+            <button class="btn btn-secondary dropdown-toggle dropBorder" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Humidity vs. Latitude
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li>
+                <a href="WebVisualizations/Resources/assets/html/latHumidity.html">
+                  <img src="WebVisualizations/Resources/assets/images/Fig2.png" class="img-fluid shadow">
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="col-6 col-sm-6 col-md-3 col-lg-3">
-        <div class="dropup">
-          <button class="btn btn-secondary dropdown-toggle dropBorder" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            Wind Speed vs. Latitude
-            <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li>
-              <a href="WebVisualizations/Resources/assets/html/latWind.html">
-                <img src="WebVisualizations/Resources/assets/images/Fig4.png" class="img-fluid shadow">
-              </a>
-            </li>
-          </ul>
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+          <div class="dropup">
+            <button class="btn btn-secondary dropdown-toggle dropBorder" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Cloudiness vs. Latitude
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li>
+                <a href="WebVisualizations/Resources/assets/html/latCloud.html">
+                  <img src="WebVisualizations/Resources/assets/images/Fig3.png" class="img-fluid shadow">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+          <div class="dropup">
+            <button class="btn btn-secondary dropdown-toggle dropBorder" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Wind Speed vs. Latitude
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li>
+                <a href="WebVisualizations/Resources/assets/html/latWind.html">
+                  <img src="WebVisualizations/Resources/assets/images/Fig4.png" class="img-fluid shadow">
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
