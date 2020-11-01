@@ -29,6 +29,14 @@
     margin-top: 2px;
     background: lavender;
 }
+.navbar-custom{
+    background: black;
+}
+
+.description{
+    margin: 7px;
+    padding: 3px;
+}
 
 @media(max-width: 768px){
     .plotList{
@@ -43,6 +51,9 @@
     }
     .plotList a{
         color: aquamarine;
+    }
+    .navbar-custom{
+        background: blue;
     }
 }
 
